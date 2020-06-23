@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24951" started-at="2020-06-23T20:44:04 IST" finished-at="2020-06-23T20:44:29 IST">
+  <suite name="Suite" duration-ms="14935" started-at="2020-06-23T21:38:16 IST" finished-at="2020-06-23T21:38:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24951" started-at="2020-06-23T20:44:04 IST" finished-at="2020-06-23T20:44:29 IST">
+    <test name="Test" duration-ms="14935" started-at="2020-06-23T21:38:16 IST" finished-at="2020-06-23T21:38:31 IST">
       <class name="automation.NewTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:automation.NewTest@26aa12dd]" name="initialize" is-config="true" duration-ms="19527" started-at="2020-06-23T20:44:04 IST" finished-at="2020-06-23T20:44:24 IST">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:automation.NewTest@376b4233]" name="initialize" is-config="true" duration-ms="8986" started-at="2020-06-23T21:38:16 IST" finished-at="2020-06-23T21:38:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="ValidateTitle()[pri:0, instance:automation.NewTest@26aa12dd]" name="ValidateTitle" duration-ms="742" started-at="2020-06-23T20:44:24 IST" finished-at="2020-06-23T20:44:24 IST">
+        <test-method status="PASS" signature="ValidateTitle()[pri:0, instance:automation.NewTest@376b4233]" name="ValidateTitle" duration-ms="798" started-at="2020-06-23T21:38:25 IST" finished-at="2020-06-23T21:38:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTitle -->
-        <test-method status="PASS" signature="login()[pri:0, instance:automation.NewTest@26aa12dd]" name="login" duration-ms="3409" started-at="2020-06-23T20:44:24 IST" finished-at="2020-06-23T20:44:28 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:automation.NewTest@376b4233]" name="login" duration-ms="3525" started-at="2020-06-23T21:38:26 IST" finished-at="2020-06-23T21:38:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.NewTest@26aa12dd]" name="tearDown" is-config="true" duration-ms="1237" started-at="2020-06-23T20:44:28 IST" finished-at="2020-06-23T20:44:29 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.NewTest@376b4233]" name="tearDown" is-config="true" duration-ms="1588" started-at="2020-06-23T21:38:30 IST" finished-at="2020-06-23T21:38:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- automation.NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
