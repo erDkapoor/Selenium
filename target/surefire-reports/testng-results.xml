@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="18021" started-at="2020-06-23T17:38:56 IST" finished-at="2020-06-23T17:39:14 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="18021" started-at="2020-06-23T17:38:56 IST" finished-at="2020-06-23T17:39:14 IST">
+      <class name="Automation.NewTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Automation.NewTest@3fee9989]" name="initialize" is-config="true" duration-ms="16729" started-at="2020-06-23T17:38:56 IST" finished-at="2020-06-23T17:39:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateTitle()[pri:0, instance:Automation.NewTest@3fee9989]" name="ValidateTitle" duration-ms="29" started-at="2020-06-23T17:39:13 IST" finished-at="2020-06-23T17:39:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation.NewTest@3fee9989]" name="tearDown" is-config="true" duration-ms="1143" started-at="2020-06-23T17:39:13 IST" finished-at="2020-06-23T17:39:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Automation.NewTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
