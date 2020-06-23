@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class loginPage {
+public class LoginPage {
 	public WebDriver driver;
 
-	public loginPage(WebDriver driver) {
+	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 	}
 
@@ -29,10 +29,14 @@ public class loginPage {
 		return driver.findElement(email);
 	}
 
-	public WebElement agreeTerms() {
+	public WebElement agreeTerms() throws InterruptedException {
+		 Thread.sleep(1000);
+		 if(!driver.findElement(agreeterms).isSelected())
+		 {
 		 driver.findElement(agreeterms).click();
+		 }
 		 driver.findElement(agreeterms).submit();
-		 ourProjects op=new ourProjects(driver);
+		 OurProjects op=new OurProjects(driver);
 		 return op.headTitle();
 	}
 }

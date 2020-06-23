@@ -8,10 +8,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import pageObjects.loginPage;
-import resources.base;
+import pageObjects.LoginPage;
+import resources.Base;
 
-public class NewTest extends base {
+public class NewTest extends Base {
 	public WebDriver driver = null;
 	
 
@@ -27,17 +27,18 @@ public class NewTest extends base {
 		String title = "Rahul Shetty Academy";
 		System.out.println(driver.getTitle());
 		Assert.assertEquals(driver.getTitle(), title);
-		loginPage lp=new loginPage(driver);
+		LoginPage lp=new LoginPage(driver);
 		lp.practiseProjects();
 	}
 
 	@Test
 	public void login() throws InterruptedException
 	{
-		loginPage lp=new loginPage(driver);
+		LoginPage lp=new LoginPage(driver);
 		lp.yourName().sendKeys("Deepak Kapoor");
 		lp.email().sendKeys("er.deepak.kapoor@outlook.com");
 		lp.agreeTerms();
+		Thread.sleep(1000);
 		Assert.assertEquals(lp.agreeTerms().getText(),"OUR PROJECTS");
 		
 		

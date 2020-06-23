@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class base {
+public class Base {
 	public WebDriver driver = null;
 
 	public WebDriver initializeDriver() throws IOException {
