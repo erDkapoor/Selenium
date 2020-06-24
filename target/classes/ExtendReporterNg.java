@@ -7,7 +7,7 @@ public class ExtendReporterNg {
 	static ExtentReports extent;
 
 	public static ExtentReports getReportObjects() {
-
+		
 		String path = System.getProperty("user.dir") + "\\reports\\index.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Selenium");

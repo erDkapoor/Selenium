@@ -1,8 +1,8 @@
-14:24:47.683 [main] DEBUG resources.Base - Hello this is a debug message
-14:24:47.687 [main] INFO  resources.Base - Hello this is an info message
-14:24:47.688 [main] ERROR resources.Base -  error
-14:25:12.493 [main] DEBUG resources.Base - Hello this is a debug message
-14:25:12.499 [main] INFO  resources.Base - Hello this is an info message
-14:25:12.499 [main] ERROR resources.Base -  error
-14:25:48.770 [main] DEBUG resources.Base - Hello this is a debug message
-14:25:48.773 [main] INFO  resources.Base - Hello this is an info message
+23:14:05.407 [main] ERROR resources.Base -  error
+23:14:57.863 [main] DEBUG resources.Base - Hello this is a debug message
+23:14:57.865 [main] INFO  resources.Base - Hello this is an info message
+23:14:57.865 [main] ERROR resources.Base -  error
+23:23:58.349 [main] DEBUG resources.Base - Hello this is a debug message
+23:23:58.361 [main] INFO  resources.Base - Hello this is an info message
+23:23:58.361 [main] ERROR resources.Base -  error
+23:28:57.616 [main] DEBUG resources.Base - Hello this is a debug message

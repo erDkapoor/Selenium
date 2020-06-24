@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Base {
+	
 	public WebDriver driver = null;
 
 	private static Logger log = LogManager.getLogger(Base.class.getName());
@@ -44,7 +45,8 @@ public class Base {
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		String destinationFile = System.getProperty("user.dir") + "\\reports\\" + testCaseName + ".png";
 		FileUtils.copyFile(source, new File(destinationFile));
-		return destinationFile;
+		String reporterPath=testCaseName + ".png";
+		return reporterPath ;
 
 	}
 }

@@ -44,6 +44,7 @@ public class NewTest extends Base {
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
+		
 	}
 
 }
