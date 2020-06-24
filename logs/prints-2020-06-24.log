@@ -1,18 +1,8 @@
-[RemoteTestNG] detected TestNG version 7.2.0
-ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 17801
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jun 24, 2020 2:10:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Rahul Shetty Academy
-log4j:WARN No appenders could be found for logger (freemarker.cache).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-
-===============================================
-Suite
-Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
-===============================================
-
+14:24:47.683 [main] DEBUG resources.Base - Hello this is a debug message
+14:24:47.687 [main] INFO  resources.Base - Hello this is an info message
+14:24:47.688 [main] ERROR resources.Base -  error
+14:25:12.493 [main] DEBUG resources.Base - Hello this is a debug message
+14:25:12.499 [main] INFO  resources.Base - Hello this is an info message
+14:25:12.499 [main] ERROR resources.Base -  error
+14:25:48.770 [main] DEBUG resources.Base - Hello this is a debug message
+14:25:48.773 [main] INFO  resources.Base - Hello this is an info message

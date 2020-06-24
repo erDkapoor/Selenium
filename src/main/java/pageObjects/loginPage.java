@@ -29,14 +29,13 @@ public class LoginPage {
 		return driver.findElement(email);
 	}
 
-	public WebElement agreeTerms() throws InterruptedException {
-		 Thread.sleep(1000);
-		 if(!driver.findElement(agreeterms).isSelected())
-		 {
-		 driver.findElement(agreeterms).click();
-		 }
-		 driver.findElement(agreeterms).submit();
-		 OurProjects op=new OurProjects(driver);
-		 return op.headTitle();
+	public OurProjects agreeTerms() throws InterruptedException {
+		Thread.sleep(1000);
+		if (!driver.findElement(agreeterms).isSelected()) {
+			driver.findElement(agreeterms).click();
+		}
+		driver.findElement(agreeterms).submit();
+		return new OurProjects(driver);
+
 	}
 }
