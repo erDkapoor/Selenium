@@ -1,7 +1,6 @@
 package resources;
-
+/*
 import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -9,7 +8,12 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-
+import resources.ExtendReporterNg;
+import resources.Base;
+import resources.*;
+*/
+public class Listeners {
+	/*
 public class Listeners extends Base implements ITestListener {
 	ExtentTest test;
 	ExtentReports extent = ExtendReporterNg.getReportObjects();
@@ -76,8 +80,8 @@ public class Listeners extends Base implements ITestListener {
 			e1.printStackTrace();
 		}
 		try {
-			screenShotPath = getScreenShotPath(testCaseName, driver);
-		} catch (IOException e2) {
+			screenShotPath = getScreenShotPath(testCaseName, driver);	
+			} catch (IOException e2) {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
 		}
@@ -122,4 +126,6 @@ public class Listeners extends Base implements ITestListener {
 
 	}
 
+}
+*/
 }
