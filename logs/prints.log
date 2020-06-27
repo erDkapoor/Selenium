@@ -1,6 +1,1 @@
-16:44:04.794 [main] DEBUG resources.Base - Hello this is a debug message
-16:44:04.814 [main] INFO  resources.Base - Hello this is an info message
-16:44:04.814 [main] ERROR resources.Base -  error
-16:44:58.131 [main] DEBUG resources.Base - Hello this is a debug message
-16:44:58.135 [main] INFO  resources.Base - Hello this is an info message
-16:44:58.135 [main] ERROR resources.Base -  error
+17:15:25.578 [main] ERROR resources.Base -  error
