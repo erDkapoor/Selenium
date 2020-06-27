@@ -4,7 +4,6 @@
 <listeners>
 <listener class-name="resources.Listeners"> </listener>
 </listeners>
-
 	<test  name="Test">
 		<classes>
 			<class name="automation.NewTest" />
